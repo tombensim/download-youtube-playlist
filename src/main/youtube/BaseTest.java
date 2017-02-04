@@ -22,7 +22,7 @@ public class BaseTest {
 
     @BeforeClass
     public static void setupClass() {
-        EdgeDriverManager.getInstance().setup();
+        ChromeDriverManager.getInstance().setup();
     }
 
     @Before
